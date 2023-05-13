@@ -28,7 +28,7 @@ function PrintStudentsbyForEach() {
 
 function addData() {
   //Write your code here, just console.log
-  cont newStud={id: 4, name:"tejal", age:22, marks:90}
+  const newStud={id: 4, name:"tejal", age:22, marks:90}
   arr.push(newStud);
   console.log(newStud)
 }
