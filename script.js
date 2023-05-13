@@ -20,7 +20,9 @@ function PrintStudentsbyForEach() {
   //Write your code here , just console.log
   arr.forEach((stud)=>{
     if(stud.marks>50)
-  }
+    {
+      console.log(stud);
+    }
   })
 }
 
