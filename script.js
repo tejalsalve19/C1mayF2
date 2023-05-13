@@ -10,7 +10,9 @@ function PrintStudentswithMap() {
   //Write your code here , just console.log
   arr.map((stud)=>{
     if(stud.marks>50)
-  }
+    {
+      console.log(stud);  
+    }
   })
 }
 
