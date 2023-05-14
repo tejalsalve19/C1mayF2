@@ -38,7 +38,7 @@ function removeFailedStudent() {
   const failedStud=arr.filter((stud)=>{
     return stud.marks<50
   })
-  console.log(arr)
+  console.log(stud)
 }
 
 function concatenateArray() {
