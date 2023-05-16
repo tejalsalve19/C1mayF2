@@ -36,7 +36,7 @@ function addData() {
 function removeFailedStudent() {
   //Write your code here, just console.log
   const failedStud=arr.filter((stud)=>{
-    return stud.marks<50
+    return stud.marks>50
   })
   console.log(stud)
 }
