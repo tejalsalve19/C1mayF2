@@ -35,10 +35,10 @@ function addData() {
 
 function removeFailedStudent() {
   //Write your code here, just console.log
-  const failedStud=arr.filter((stud)=>{
-    return stud.marks<50
+  const nonFailedStud=arr.filter((stud)=>{
+    return stud.marks>50
   })
-  console.log(stud)
+  console.log(nonFailedStud)
 }
 
 function concatenateArray() {
@@ -51,3 +51,4 @@ function concatenateArray() {
   let answer=arr.concat(arr2);
   console.log(answer);
 }
+`
